@@ -4,14 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-    <link rel="stylesheet" href="/assets/style.css" />
+
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@font-face {
+    font-family: 'Biko';
+    src: url(../fonts/biko_regular.otf),
+    url(../fonts/biko_black.otf),
+    url(../fonts/biko_bold.otf);
+    font-weight: normal;
+    font-size: 3em;
+}
+body {
+    font-family: "Outfit", 'Biko', sans-serif ;
+    background-color: #d5e1ef;
+}
 
+.qr-component {
+    width: 320px;
+    height: 500px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.image-qr-code {
+    width: 290px;
+    height: 290px;
+    border-radius: 30px;
+}
+
+.qr-code-message {
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.qr-code-message > p {
+    font-size: 1.5em;
+}
+
+.attribution {
+    margin: auto;
+    text-align: center;
+}
+
+</style>
     <title>Frontend Mentor | QR code component</title>
   </head>
   <main>
